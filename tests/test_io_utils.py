@@ -3,7 +3,7 @@ import tempfile
 from pathlib import Path
 import pandas as pd
 
-from io_utils import (
+from utils_library.io_utils import (
     load_file,
     save_file,
     file_exists,

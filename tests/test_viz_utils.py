@@ -7,7 +7,7 @@ matplotlib.use("Agg")  # kein GUI-Backend für Tests
 import matplotlib.pyplot as plt
 plt.show = lambda *args, **kwargs: None  # plt.show neutralisieren
 
-from viz_utils import auto_plot, pretty_print
+from utils_library.viz_utils import auto_plot, pretty_print
 
 
 class TestVizUtils(unittest.TestCase):

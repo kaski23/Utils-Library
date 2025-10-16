@@ -1,5 +1,5 @@
 import unittest
-from parallel_utils import run_parallel_list, run_parallel_stream
+from utils_library.parallel_utils import run_parallel_list, run_parallel_stream
 
 
 def square(x):

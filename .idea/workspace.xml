@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb57b12-8617-49d8-bfd2-c2df8354e406" name="Changes" comment="Add CC BY-NC 4.0 License">
+      <change afterPath="$PROJECT_DIR$/utils_library/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils_library/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/utils_library/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils_library/io_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils_library/parallel_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test/test_io_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_io_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test/test_parallel_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_parallel_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test/test_viz_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_viz_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viz_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils_library/viz_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +55,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests in test_io_utils.py.executor": "Run",
+    "Python tests.Python tests in test_parallel_utils.py.executor": "Run",
     "Python tests.Python tests in test_viz_utils.py.executor": "Run",
     "Python.parallel_utils.executor": "Run",
     "Python.viz_utils.executor": "Run",
@@ -61,8 +70,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Users\Korbinian\Documents\PyCharm\Utils-Library" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Korbinian\Documents\PyCharm\Utils-Library\utils-library" />
+      <recent name="E:\Users\Korbinian\Documents\PyCharm\Utils-Library" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_io_utils.py">
+  <component name="RunManager" selected="Python tests.Python tests in test_parallel_utils.py">
     <configuration name="Python tests in test_io_utils.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Utils-Library" />
       <option name="ENV_FILES" value="" />
@@ -74,7 +87,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_test/test_io_utils.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_io_utils.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_parallel_utils.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Utils-Library" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_parallel_utils.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -89,12 +117,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_test/test_viz_utils.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_viz_utils.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_parallel_utils.py" />
         <item itemvalue="Python tests.Python tests in test_io_utils.py" />
         <item itemvalue="Python tests.Python tests in test_viz_utils.py" />
       </list>
@@ -131,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760641459111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add CC BY-NC 4.0 License">
+      <option name="closed" value="true" />
+      <created>1760641602937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760641602937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
